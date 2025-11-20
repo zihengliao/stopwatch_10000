@@ -1,0 +1,40 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+# Tauri build outputs
+src-tauri/target/
+
+# Tauri generated files
+src-tauri/gen/
+
+# WiX build artifacts (Windows installer)
+src-tauri/WixTools/
+
+# Tauri config with secrets (if you have one)
+src-tauri/tauri.conf.json.user
+
+# Node modules (if not already ignored)
+node_modules/
